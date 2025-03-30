@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,504;1,504&display=swap');
+
+:root {
+    --cor0: #6A5D94;
+    --cor1: #7C6DAD;
+    --cor2: #453D6A;
+    --cor3: #B39DFA;
+
+    --fonte-titulo: 'Cinzel Decorative', serif;
+    --fonte-paragrafo: 'Lora', serif;
+    --fonte-link: 'Montserrat', serif;
+}
+
+body {
+    background-color: var(--cor2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    background-color: var(--cor0);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    max-width: 90%;
+}
+
+h1 {
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: var(--fonte-paragrafo);
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+main img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+nav a {
+    color: var(--cor2);
+    text-decoration: none;
+    font-family: var(--fonte-link);
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+nav a:active {
+    color: var(--cor0);
+}
+
+button {
+    border-radius: 5px;
+    padding: 12px;
+    border-color: white; 
+    border: 2xp solid var(--cor2);
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:acitve {
+    transform: scale(0.95);
+}
+
+
