@@ -49,6 +49,12 @@ h2 {
     margin-bottom: 20px;
 }
 
+p {
+    color: white;
+    font-family: var(--fonte-paragrafo);
+    letter-spacing: 1px;
+}
+
 main img {
     width: 200px;
     height: 200px;
